@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency -Exchange</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <img src="./rupee.jpg" alt="" height="200px" width="200px" />
+    <h1 class="title">Currency Converter</h1>
+    <p class="description">Latest Currency Exchange Rates:</p>
+    <div class="container">
+      <div class="currency">
+        <select id="currency-one">
+          <option value="INR">INR</option>
+        </select>
+        <input type="number" id="amount-one" placeholder="0" value="1" />
+      </div>
+    </div>
+    <div class="swap-rate-container">
+      <button id="swap">Swap</button>
+      <div class="rate" id="rate"></div>
+    </div>
+    <div class="currency">
+      <select id="currency-two">
+        <option value="USD">INR</option>
+      </select>
+      <input type="number" id="amount-two" placeholder="0" />
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
